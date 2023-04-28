@@ -117,7 +117,7 @@ if choice == 'Sign Up':
                 streamlit.snow()
                 streamlit.title('Welcome ' + un)
                 streamlit.info('Please upload your picture for face authentication')
-                streamlit.info('Please login again through the sidebar and add your face from the Face_auth section')
+                streamlit.info('Please login again through the sidebar and add your face from the Face-ID section')
                 c1,c2 = st.columns(2)
 
                 #newimgpath = st.text_input('Enter the path of your image')
