@@ -116,7 +116,7 @@ if choice == 'Sign Up':
                 streamlit.success('Account created successfully, please verify your email address with the link that we have mailed you')
                 streamlit.snow()
                 streamlit.title('Welcome ' + un)
-                streamlit.info('Please upload your picture for face authentication')
+#                 streamlit.info('Please upload your picture for face authentication')
                 streamlit.info('Please login again through the sidebar and add your face from the Face-ID section')
                 c1,c2 = st.columns(2)
 
